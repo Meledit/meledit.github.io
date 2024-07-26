@@ -1,0 +1,30 @@
+.homeTitle {
+    font-size: 6rem;
+    font-weight: normal;
+    line-height: 6rem;
+    text-align: center;
+
+    user-select: none;
+}
+
+.homeCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+@keyframes appear {
+    0% {
+        
+    }
+
+    100% {
+
+    }
+}

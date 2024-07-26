@@ -1,0 +1,170 @@
+.whoCont {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0px;
+}
+
+.WhoIntroCont {
+    width: 80%;
+    max-width: 1000px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 75px;
+    animation: appearAnim 1s cubic-bezier(.58,2.08,.12,.71);
+}
+
+.WhoStudiesTitle {
+    width: 100%;
+    font-size: 4rem;
+}
+
+.WhoSkillsCont {
+    width: 100%;
+    background: #000;
+    margin-top: 30px;
+    padding: 60px 0px;
+    position: relative;
+}
+
+.WhoSkillsContent {
+    width: 80%;
+    margin: 0 auto;
+    animation: appearAnim 1s cubic-bezier(.58,2.08,.12,.71);
+}
+
+.WhoIntroImg {
+    width: 275px;
+    height: fit-content;
+}
+
+.WhoIntroText {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.WhoSkillCont {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.WhoSkillsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.WhoSkillTitle {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.WhoSkillList {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.WhoSkillImg {
+    overflow: hidden;
+    width: 75px;
+    height: fit-content;
+    border-radius: 10px;
+    user-select: none;
+    transition: all 0.5s cubic-bezier(.58,2.08,.12,.71);
+}
+
+.WhoSkillClassicList {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-left: 40px;
+    font-size: 1.25rem;
+}
+
+.WhoSkillImg:hover {
+    transform: scale(1.1) rotate(7deg);
+}
+
+.WhoSkillImg img {
+    width: 100%;
+}
+
+.WhoIntroText p {
+    text-indent: 10px;
+}
+
+.WhoIntroTextTitle {
+    font-size: 5rem;
+}
+
+.WhoSkillsTextTitle {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.WhoIntroTextComm {
+    background: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #ddd;
+}
+
+.WhoStudiesCont {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px 0px;
+}
+
+@media screen and (max-width: 870px) {
+    .WhoIntroCont {
+        flex-direction: column;
+        gap: 40px;
+        max-width: none;
+        align-items: center;
+    }
+
+    .WhoSkillsTextTitle {
+        font-size: 3rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px) {
+    .WhoIntroTextTitle {
+        font-size: 3.5rem;
+    }
+
+}
+
+@keyframes appearAnim {
+    0% {
+        margin-top: 40px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
