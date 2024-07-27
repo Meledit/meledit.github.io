@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.29c69ecd.css",
-    "main.js": "./static/js/main.05b27450.js",
+    "main.js": "./static/js/main.9d76c6e6.js",
     "static/media/CV_2024-06-28_NIDAL_IDRISSI.pdf": "./static/media/CV_2024-06-28_NIDAL_IDRISSI.729f084b83ff626a9e55.pdf",
     "static/media/moi3.png": "./static/media/moi3.4e412fa4957d2f772786.png",
     "static/media/moi1.png": "./static/media/moi1.e5321fd0d25a24c6a24c.png",
@@ -39,10 +39,10 @@
     "static/media/cat-tail.svg": "./static/media/cat-tail.55ff157b95adf856eb5a1ee4369a6535.svg",
     "static/media/cat-ear.svg": "./static/media/cat-ear.3ba385b428eebb5236924ec5cb0a57f6.svg",
     "main.29c69ecd.css.map": "./static/css/main.29c69ecd.css.map",
-    "main.05b27450.js.map": "./static/js/main.05b27450.js.map"
+    "main.9d76c6e6.js.map": "./static/js/main.9d76c6e6.js.map"
   },
   "entrypoints": [
     "static/css/main.29c69ecd.css",
-    "static/js/main.05b27450.js"
+    "static/js/main.9d76c6e6.js"
   ]
 }
